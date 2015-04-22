@@ -160,6 +160,9 @@ results =sqldf("select *,
 
 ConfusionMatrix <- table(results$actual,results$Score)
 ConfusionMatrix
+       0      1
+0 138525   1444
+1   8265   1761
 
 #Kaggle Rank/Score: 583/0.857392
 
